@@ -1,0 +1,16 @@
+{
+  "fail_threshold": 5,
+  "window_seconds": 300,
+  "abuse_score_threshold": 50,
+  "dry_run": false,
+  "firewall_host": "10.10.0.1",
+  "firewall_user": "root",
+  "firewall_ssh_key": "/home/atd/.ssh/firewall_key",
+  "log_file": "/home/atd/threat-detector/data/live_kern.log",
+  "report_file": "data/results/report.csv",
+  "db_path": "data/threat_detector.db",
+  "log_source": "firewall",
+  "firewall_mode": "ips",
+  "email_enabled": false,
+  "poll_interval": 0.5
+}
